@@ -1,0 +1,108 @@
+===== ENV CHECK =====
+Wed May 20 11:52:19 AM CST 2026
+GPU38
+Wed May 20 11:52:19 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.142                Driver Version: 580.142        CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-PCIE-32GB           Off |   00000000:02:00.0 Off |                    0 |
+| N/A   29C    P0             23W /  250W |       0MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+python in PATH: /nfsdat1/home/rfchenslm/.conda/envs/centurymaze/bin/python
+Python 3.8.20
+Python 3.8.20
+Importing module 'gym_38' (/nfsdat1/home/rfchenslm/centurymaze/isaacgym/python/isaacgym/_bindings/linux-x86_64/gym_38.so)
+Setting GYM_USD_PLUG_INFO_PATH to /nfsdat1/home/rfchenslm/centurymaze/isaacgym/python/isaacgym/_bindings/linux-x86_64/usd/plugInfo.json
+isaacgym ok
+===== START TRAIN =====
+Wed May 20 11:52:19 AM CST 2026
+Importing module 'gym_38' (/nfsdat1/home/rfchenslm/centurymaze/isaacgym/python/isaacgym/_bindings/linux-x86_64/gym_38.so)
+Setting GYM_USD_PLUG_INFO_PATH to /nfsdat1/home/rfchenslm/centurymaze/isaacgym/python/isaacgym/_bindings/linux-x86_64/usd/plugInfo.json
+[DEBUG] import 1/7: isaacgym
+[DEBUG] import 2/7: matplotlib
+[DEBUG] import 3/7: torch
+[DEBUG] import 4/7: discit
+[DEBUG] import 5/7: config
+[DEBUG] import 6a: sim
+[DEBUG task] 1/5: numpy
+[DEBUG task] 2a: gymapi
+PyTorch version 2.4.1+cu121
+Device count 1
+/nfsdat1/home/rfchenslm/centurymaze/isaacgym/python/isaacgym/_bindings/src/gymtorch
+ninja: no work to do.
+[DEBUG task] 2b: gymtorch OK
+[DEBUG task] 3/5: torch
+[DEBUG task] 4/5: mazebots imports
+[DEBUG task] 5/5: COLOURS created
+[DEBUG] import 6b: task
+[DEBUG] import 6c: train
+[DEBUG] import 6d: model
+[DEBUG] import 6/7: mazebots modules
+[DEBUG] import 7/7: all imports complete
+[DEBUG] tb_run_dir=runs/nollmonlymlp4_v_qwen_env1_robot100
+Creating state ckpt. 0.
+[DEBUG] CheckpointTracker created
+[DEBUG] Creating MazeSim with n_envs=1, n_bots=100
+Not connected to PVD
++++ Using GPU PhysX
+Physics Engine: PhysX
+Physics Device: cuda:0
+GPU Pipeline: enabled
+[DEBUG] MazeSim created OK
+Loss logs will be written to: runs/nollmonlymlp4_v_qwen_env1_robot100
+Data logging is OFF.
+Initialised ckpt. ver. 0.
+=== BeliefAuxTask INIT === n_envs=1, n_bots=100, batch_size=100, buffer_size=4320, n_truncated_steps=20, online_only=False, detach_com=False
+Epoch 1 of 1350 (0.00) | ETA: 0:00:00 | Score:  0.000   === BeliefAuxTask CLEAR === clear_size=160
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+Epoch 2 of 1350 (0.00) | ETA: 18:43:43 | Score:  0.000   === BeliefAuxTask CLEAR === clear_size=160
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+Epoch 3 of 1350 (0.00) | ETA: 21:59:10 | Score:  0.000   === BeliefAuxTask CLEAR === clear_size=160
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+=== BeliefAuxTask UPDATE ENTER ===
+[DIABL] main buffer not ready yet (sample failed)
+Epoch 4 of 1350 (0.00) | ETA: 1 day, 1:03:17 | Score:  0.000   === BeliefAuxTask CLEAR === clear_size=160
