@@ -1,0 +1,5 @@
+2026-05-20 11:52:28,168 - nollmonlymlp4_v_qwen_env1_robot100 - INFO - Creating state ckpt. 0.
+2026-05-20 11:52:28,168 - nollmonlymlp4_v_qwen_env1_robot100 - INFO - Training with args.:
+{act_freq=4, aux_mode=2, batch_size=100, com_mode=1, compute_device_id=0, ctrl_mode=2, draw_freq=60, end_step=-1, ep_duration=90, flex=False, global_spawn_prob=0.0, graphics_device_id=0, headless=1, llm_adapter_n_tokens=8, llm_adapter_output_scale=0.05, llm_bridge_enabled=0, llm_model_path=None, model_name='nollmonlymlp4_v_qwen_env1_robot100', n_bots=100, n_envs=1, n_goals=-1, num_threads=0, physics_engine=SimType.SIM_PHYSX, physx=False, pipeline='gpu', preview=0, prob_actor=1, rec_mode=0, rng_seed=128, rwd_mode=3, sim_device='cuda:0', sim_device_type='cuda', slices=0, subscenes=0, transfer_name='', transfer_ver=-1, use_gpu=True, use_gpu_pipeline=True, use_policy_llm_adapter=1}
+2026-05-20 11:52:31,229 - nollmonlymlp4_v_qwen_env1_robot100 - INFO - Loss logs will be written to: runs/nollmonlymlp4_v_qwen_env1_robot100
+2026-05-20 11:52:32,223 - nollmonlymlp4_v_qwen_env1_robot100 - INFO - Initialised ckpt. ver. 0.
